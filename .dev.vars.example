@@ -1,4 +1,4 @@
-# Nova first-run setup.
+# Pouyan first-run setup.
 #
 # Cloudflare reads this file during a "Deploy to Cloudflare" and asks you for each
 # value below, then stores what you type as an encrypted Worker secret.
@@ -18,6 +18,6 @@
 # lives in your own D1/KV, which you control from the Cloudflare dashboard under
 # Workers & Pages > your worker > Settings > Variables and Secrets.
 #
-# NOVA_CLAIM_TOKEN is reserved for a future build that will enforce a first-run claim
+# Pouyan_CLAIM_TOKEN is reserved for a future build that will enforce a first-run claim
 # gate. This build does not read it, so setting it has no effect yet.
-NOVA_CLAIM_TOKEN=
+Pouyan_CLAIM_TOKEN=
