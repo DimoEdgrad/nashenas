@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600">
+  <!-- Background -->
+  <rect width="1050" height="600" fill="#FFFFFF"/>
+
+  <!-- Pink stripes -->
+  <rect width="1050" height="200" y="0" fill="#527bff"/>
+  <rect width="1050" height="200" y="200" fill="#9eb5ff"/>
+  <rect width="1050" height="200" y="400" fill="#527bff"/>
+
+  <!-- Decorative lines -->
+  <g opacity="0.18" fill="#FFFFFF">
+    <circle cx="80" cy="100" r="10"/>
+    <circle cx="970" cy="500" r="10"/>
+    <circle cx="980" cy="90" r="8"/>
+    <circle cx="70" cy="510" r="8"/>
+  </g>
+
+  <!-- Center Heart -->
+  <g transform="translate(525 300)">
+    <path d="M0,-75
+             C35,-120 110,-105 110,-35
+             C110,30 55,70 0,115
+             C-55,70 -110,30 -110,-35
+             C-110,-105 -35,-120 0,-75Z"
+          fill="#9eb5ff"
+          stroke="#FFFFFF"
+          stroke-width="8"/>
+
+    <!-- Crown -->
+    <path d="M-45 -92 L-25 -118 L0 -88 L25 -118 L45 -92 L45 -70 L-45 -70 Z"
+          fill="#9eb5ffF"
+          stroke="#F4B400"
+          stroke-width="2"/>
+
+    <!-- Text -->
+    <text x="0" y="8"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="42"
+          font-weight="bold"
+          text-anchor="middle"
+          fill="#FFFFFF"
+          letter-spacing="3">
+      Pouyan
+    </text>
+  </g>
+
+  <!-- Bottom signature -->
+  <text x="525" y="575"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="22"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        opacity="0.95">
+    © All Rights Reserved by Pouyan
+  </text>
+</svg>
